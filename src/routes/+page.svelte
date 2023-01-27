@@ -1,12 +1,14 @@
 <script>
 	let counter = 0;
 	function increaseCounter() {
-		counter += 1;
+		counter += 10;
 		document.querySelector('.error').classList.add('hidden');
 	}
 	function decreaseCounter() {
 		if (counter > 0) {
-			counter--;
+			counter -= 10
+			
+			
 		} else {
 			document.querySelector('.error').classList.remove('hidden');
 		}
